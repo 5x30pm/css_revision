@@ -12,7 +12,7 @@ Each file focuses on a specific concept, making it easy to learn and revise quic
 
 The repository is organized into multiple HTML && CSS Excersises, each covering different topics such as:
 # Ex: 1 <br>
-# Ex: 2
+# Ex: 2 <a href="https://ex-02-css-revision.netlify.app/" alt="Ex: 02 ">Preview</a>
 - Box Model
 - Selectors (basic → advanced)
 - Display property
@@ -39,7 +39,7 @@ Clone the repository:
 1. git clone https://github.com/5x30pm/css_revision.git
 2. Copy All In the exersise
 3. Remove all The code from CSS
-4. Recreate all Things. which displays in the excersise
+4. Recreate all Things. which displays in the Preview of The Excersise.
 <br><br><hr>
 
 # ✨ Features
