@@ -1,0 +1,65 @@
+.box {
+  /* box property*/
+  height: 450px;
+  width: 300px;
+  border: 2px solid black;
+  margin: 20px;
+  border-radius: 5%;
+  display: inline-block;
+  /* Transistion Effect*/
+  transition: 0.4s;
+  /* Box Shadow*/
+  box-shadow: 2px 2px 5px black;
+}
+
+/* Profile Pic */
+.pro-pic {
+  height: 300px;
+  width: 297px;
+  border: 2px solid black;
+  border-radius: 5% 5% 0 0;
+}
+
+/* Change Height , width and bg color of profile pic*/
+.pro-pic img {
+  height: 300px;
+  width: 297px;
+  border-radius: 5% 5% 0 0;
+  background-color: aliceblue;
+}
+
+/* Change 2n per profile pic*/
+.box:nth-of-type(2n) .pro-pic img {
+  background-color: rgb(217, 237, 237);
+}
+
+/* Bio Editing*/
+.bio {
+  padding: 10px;
+  line-height: 15px;
+  font-size: 30px;
+}
+
+/*Scale Effect*/
+#box1:hover {
+  box-shadow: 16px 16px 30px black;
+  transform: scale(1.1);
+}
+
+/*Skew Effect*/
+#box2:hover {
+  box-shadow: 8px 8px 16px black;
+  transform: skew(5deg);
+}
+
+/*rotate Effect*/
+#box3:hover {
+  box-shadow: 8px 8px 16px black;
+  transform: rotate(5deg);
+}
+
+/*translate Effect*/
+#box4:hover {
+  box-shadow: 8px 8px 16px black;
+  transform: translate(20px, 20px);
+}
