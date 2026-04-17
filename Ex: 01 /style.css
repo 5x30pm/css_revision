@@ -1,0 +1,74 @@
+* {
+  font-size: 20px;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+}
+
+/*  Paragraph Style     */
+
+#animal::selection{
+    color:red;
+    background-color: antiquewhite;
+
+}
+#animal::first-letter{
+    line-height:1;
+    float:left;
+    font-size:70px;
+    font-family: georgia;
+}
+#loyal{
+    text-decoration: underline solid black;
+    background-color: yellow;
+}
+/*
+    Age Verifications
+*/
+#terms{
+    display: inline;
+}
+input:hover + label{
+    color:magenta;
+}
+input:checked + label{
+    color:red;
+}
+
+
+/* Summery */
+.label-head{
+    font-weight: 700;
+}
+textarea[attr="text"]{
+    color:aqua;
+}
+textarea{
+    color:blue;
+    background-color:beige;
+    border-radius: 10px;
+    padding:10px;
+}
+
+/*  Button Style  */
+
+.button {
+    height:35px;
+    width: 80px;
+    border:2px solid black;
+    border-radius: 4px;
+    padding: 2px;
+    margin:5px;
+    box-shadow: 2px 2px 4px black;
+    transition: .25s;
+}
+.button:hover{
+    transform: scale(1.2);
+    box-shadow:4px 4px 8px black;
+    color:red;
+    background-color: antiquewhite;
+}

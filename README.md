@@ -11,7 +11,14 @@ Each file focuses on a specific concept, making it easy to learn and revise quic
 ## 📂 Project Structure
 
 The repository is organized into multiple HTML && CSS Excersises, each covering different topics such as:
-# Ex: 1 <br>
+# Ex: 1 <a href="https://ex-01-css-revision.netlify.app/" alt="Ex: 01 ">Preview</a>
+- Selectors (id, class, element)
+- Pseudo-classes & pseudo-elements
+- Combinators
+- Typography
+- Box model
+- Basic animation (hover effects)
+<br><br><hr>
 # Ex: 2 <a href="https://ex-02-css-revision.netlify.app/" alt="Ex: 02 ">Preview</a>
 - Box Model
 - Selectors (basic → advanced)

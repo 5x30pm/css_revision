@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ex: 01 (Basic)</title>
+</head>
+
+<body>
+    <h1>Ex: 01 (Basic)</h1>
+    <!--
+   Basic Paraagraph 
+-->
+    <h2>Animal: Loyality</h2>
+    <p id="animal">
+        Animals, particularly dogs, are often considered <span id="loyal">more loyal than humans</span> because their devotion is unconditional,
+        unwavering, and free from deceit, greed, or betrayal. Their loyalty stems from pack instincts, deep emotional
+        bonds, and a lack of complex, selfish motivations, allowing them to remain dedicated even under harsh treatment.
+    </p>
+    <!--
+    Form Starts
+-->
+    <form action="/server">
+        <!--
+    Age Verifications
+-->
+        <p id="terms">Are You 18+ : </p>
+        <input type="radio" id="yes" name="age" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="No" name="age" value="No">
+        <label for="No">No</label>
+        <br>
+        <hr>
+
+        <!--
+    Summery
+-->
+        <label for="summery">
+            <span class="label-head">
+                Write Summery:
+            </span>
+        </label> <br>
+        <textarea type="text" id="summery" name="Summery" placeholder="Write Summery Here ..........." rows="10"
+            cols="50"></textarea> <br>
+        <!--
+    Button
+-->
+        <button class="button" type="submit">Submit</button>
+        <button class="button" type="reset">Clear</button>
+    </form>
+</body>
+
+</html>
