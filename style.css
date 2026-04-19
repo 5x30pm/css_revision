@@ -1,0 +1,50 @@
+
+body{
+    height: 100%;
+    margin:0;
+}
+#header {
+  width: 100%;
+  margin-top:0;
+  font-size: 40px;
+  color: white;
+  background-color: #4a90e2;
+  text-align: center;
+}
+
+.container {
+  align-items: center;
+  width: 1000px;
+  margin: 100px auto;
+}
+.chapter {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1; 
+}
+
+.footer {
+  width: 100%;
+  padding:0 20px;
+}
+
+hr{
+    margin:0;
+    padding:0;
+}
