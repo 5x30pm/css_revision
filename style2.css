@@ -1,131 +1,168 @@
-* {
-  font-family: "Roboto", sans-serif;
-}
-
-.btn_one i {
-  
-  color: black;
-  position: absolute;
-  left: 20px;
-  line-height: 60px;
-  font-weight: 700;
-  font-size: 50px;
-  box-shadow: 0 0 4px white 0.5;
-  cursor: pointer;
-}
-
-.sidebar_menu {
-      margin: 0;
-  padding: 0;
-  position: fixed;
-  left: -400px;
-  width: 300px;
-  height: 100vh;
-  /* background-color: rgba(128, 128, 128, 0.5); */
-    background-color: gray;
-  box-shadow: 0 0 4px rgba(51, 49, 49, 0.4);
-  border-radius: 0 20px 20px 0;
-  transition: all 0.2s linear;
-}
-.sidebar_menu .logo {
-  position: absolute;
-  width: 100%;
-  line-height: 80px;
-  border-radius: 0 20px 0 0;
-}
-
-.sidebar_menu .logo a {
-  margin-left: 20px;
-  font-size: 40px;
-  line-height: 60px;
-  font-weight: 700;
-  opacity: 0.7;
-  text-decoration: none;
-}
-.btn_two i {
-  color: black;
-  position: absolute;
-  left: 80%;
-  font-weight: 700;
-  opacity: 0.7;
-  font-size: 50px;
-  cursor: pointer;
-  opacity: 0;
-}
-
-.sidebar_menu .menu {
-  position: absolute;
-  width: 100%;
-  top: 80px;
-}
-
-.sidebar_menu .menu li {
-  padding: 10px auto 10px 0;
-  line-height: 60px;
-  font-size: 30px;
-  box-shadow: 0 0 4px rgba(51, 49, 49, 0.5);
-
-}
-
-.sidebar_menu .menu i,
-a {
-  color: black;
-  text-decoration: none;
-}
-.sidebar_menu .menu i {
-  padding: 10px;
-}
-.sidebar_menu .menu ul{
-    padding:0;
-}
-
-.sidebar_menu .social_media {
-  position: absolute;
-  margin: 0 auto 25px auto;
-  bottom:0;
-}
-.sidebar_menu .sidebar_menu ul{
-    padding:0;
-}
-.sidebar_menu .social_media i {
-  opacity: 0.6;
-  font-size: 30px;
-  margin: 3px;
-}
-
-.sidebar_menu .menu li:hover {
-  box-shadow: 0 2px 8px rgba(51, 49, 49, 0.5);
-}
-
-.btn_one i:hover {
-  transform: scale(1.2);
-}
-
-.btn_two i:hover {
-  transform: scale(1.2);
-}
-
-.sidebar_menu .social_media i:hover {
-  opacity: 1;
-  transform: scale(1.2);
-}
-
-
-.menu ul li{
-    list-style: none;
-}
-
-#check {
+/* Checkbox */
+.main_box input {
   display: none;
 }
 
-#check:checked ~ .sidebar_menu{
-    left:0;
+/* Button one means Menu button  */
+
+.main_box .btn_one label img {
+  position: absolute;
+  left: 15px;
+  /* top: 15px; */
+  /* height: 50px;
+  width: 70px; */
+  color: black;
+  cursor: pointer;
+  transition: all 0.2s;
 }
 
-#check:checked ~ .btn_one{
-    display:none;
+/* Sidebar menu  */
+.main_box .sidebar_menu {
+  margin: 0;
+  padding-top: 0;
+  position: absolute;
+  left: 0px;
+  left: -400px;
+  width: 300px;
+  height: 100vh;
+  border-radius: 0 20px 20px 0;
+  background-color: #E8F0FE;
+  transition: all .2s ease-in;
 }
-#check:checked ~ .sidebar_menu .btn_two i{
+
+/* logo pannel in sidebar menu  */
+.main_box .sidebar_menu #logo {
+  position: absolute;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  border-radius: 0 20px 0 0;
+  box-shadow: 0 0 4px black;
+}
+
+/* Website name Pannel */
+.main_box .sidebar_menu #logo a {
+  position: absolute;
+  margin: 5px;
+  left:20px;
+  top: 0;
+  font-width:900;
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Button two means close menu  */
+.main_box .sidebar_menu .btn_two label img {
+  position: absolute;
+  margin-top: 10px;
+  right: 20px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  color: black;
+  transition: all 0.2s;
+  /* opacity:0; */
+}
+
+/* Menu   */
+.main_box .sidebar_menu .menu {
+  position: absolute;
+  top: 70px;
+  width: 100%;
+}
+
+/* Remove padding from ul tag */
+.main_box .sidebar_menu .menu ul {
+  padding: 0;
+}
+
+/* Remove underline from menu name */
+.main_box .sidebar_menu .menu ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+/* Give space to menu section   */
+.main_box .sidebar_menu .menu ul a li {
+  list-style: none;
+  height: 60px;
+  width: 100%;
+  padding: auto 10px;
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Give height and width to logo under menu  */
+.main_box .sidebar_menu .menu ul a li img {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  padding-right: 10px;
+}
+
+/* Social media section  */
+.main_box .sidebar_menu .social_media {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding-left: 50px;
+}
+
+/* Remove small underline from behind the logo  */
+.main_box .sidebar_menu .social_media a {
+  text-decoration: none;
+}
+
+/* Set Social media logo size */
+.main_box .sidebar_menu .social_media a .social_logo {
+  height: 35px;
+  width: 35px;
+  padding:none;
+  opacity:.7;
+}
+
+/* Hover Effects  */
+
+/* Button one  */
+.main_box .btn_one label img:hover {
+  transform: scale(1.2);
+}
+
+/* Button Two  */
+.main_box .sidebar_menu .btn_two label img:hover{
+  transform: scale(1.2);
+}
+
+/* menu list  */
+.main_box .sidebar_menu .menu ul a li:hover{
+    
+    transform:scale(1.01);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Social media image  */
+.main_box .sidebar_menu .social_media a .social_logo:hover{
+    transform:scale(1.2);
     opacity:1;
+}
+
+
+
+
+
+
+
+
+
+/* Working style  */
+#button:checked ~ .sidebar_menu{
+    left:0px;
+}
+
+/* Button one hide  */
+#button:checked ~ .btn_one{
+    display:none;
+
 }

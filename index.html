@@ -7,80 +7,87 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
     <title>CSS Excercise</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
 <body>
+    <!-- Sidebar menu  -->
+    <div class="main_box">
+        <input type="checkbox" id="button">
+        <!-- Buttn one menu button -->
+        <div class="btn_one">
+            <label for="button">
+                <img id="button" src="logo/menu.svg">
+            </label>
+        </div>
+        <!-- sidebar menu -->
+        <div class="sidebar_menu">
+            <div id="logo">
+                <a href="#">5x30 PM</a>
+            </div>
+            <!-- Button Two Close Button  -->
+            <div class="btn_two">
+                <label for="button">
+                    <img src="logo/close.svg">
+                </label>
+            </div>
+            <!-- Menu  -->
+            <div class="menu">
+                <ul>
+                    <a href="https://github.com/5x30pm/css_revision.git">
+                        <li>
+                            <img class="logo" src="logo/github.svg"> Repo Info
+                        </li>
+                    </a>
+                    <a href="https://github.com/5x30pm">
+                        <li>
+                            <img class="logo" src="logo/github.svg"> More Repo
+                        </li>
+                    </a>
+                    <a href="https://t.me/user_5x30pm_support?text=Support%20Me%20%3A%0A">
+                        <li>
+                            <img class="logo" src="logo/support.svg"> Support
+                        </li>
+                    </a>
+                    <a href="https://t.me/user_5x30pm_support?text=Feedback%20%3A%0A">
+                        <li>
+                            <img class="logo" src="logo/feedback.svg"> Feedback
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <!-- social media  -->
 
-<!-- 
-            Sidebar
--->
+
+            <div class="social_media">
+                <!-- Github  -->
+                <a href="https://github.com/5x30pm">
+                    <img class="social_logo" src="logo/github.svg" alt="Github">
+                </a>
+                <!-- facebook  -->
+                <a href="https://www.facebook.com/5x30pm">
+                    <img class="social_logo" src="logo/facebook.svg" alt="facebook">
+                </a>
+                <!-- Linkedin  -->
+                <a href="https://www.linkedin.com/in/user-5x30pm">
+                    <img class="social_logo" src="logo/linkedin.svg" alt="linkedin">
+                </a>
+                <!-- Instagram  -->
+                <a href="https://www.instagram.com/5x30pm">
+                    <img class="social_logo" src="logo/instagram.svg" alt="Instagram">
+                </a>
+                <!-- Telegram  -->
+                <a href="https://t.me/user_5x30pm_support">
+                    <img class="social_logo" src="logo/telegram.svg" alt="telegram">
+                </a>
+            </div>
 
 
-<!--- 
-        Button
--->
-     <div class="sidebar">
-                <input type="checkbox" id="check" />
-                <div class="btn_one">
-                    <label for="check">
-                        <i class="fa-solid fa-bars"></i>
-                    </label>
-                </div>
+        </div>
+    </div>
 
-                <div class="sidebar_menu">
-                    <div class="logo">
-                        <a href="#">5x30 PM</a>
-                    </div>
 
-                    <div class="btn_two">
-                        <label for="check" ">
-          <i class=" fa-solid fa-xmark"></i>
-                        </label>
-                    </div>
-<!-- 
-                    
-            Sidebar menu
--->
-                    <div class="menu">
-                        <ul>
-                            <li>
-                                <i class="fa-brands fa-github"></i>
-                                <a href="https://github.com/5x30pm/css_revision.git">Repo Info</a>
-                            </li>
-                            <li>
-                                <i class="fa-brands fa-github"></i>
-                                <a href="https://github.com/5x30pm">More Repo</a>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-phone"></i>
-                                <a href="https://t.me/user_5x30pm_support?text=Support%20Me%20%3A%0A">Support</a>
-                            </li>
-                            <li>
-                                <i class="fa-regular fa-comments"></i>
-                                <a href="https://t.me/user_5x30pm_support?text=Feedback%20%3A%0A">Feedback</a>
-                            </li>
-                        </ul>
-                    </div>
-<!-- 
-                Sidebar bottom                    
--->
-                    <div class="social_media">
-                        <ul>
-                            <a href="https://github.com/5x30pm"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://www.facebook.com/5x30pm"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="https://www.linkedin.com/in/5x30pm"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/5x30pm"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://t.me/user_5x30pm_support"><i class="fa-brands fa-telegram"></i></a>
-                        </ul>
-                    </div>
-                </div>
-<!-- 
+    <!-- 
             Main Content            
 -->
     <div class="page-container">
@@ -89,66 +96,68 @@
             <div id="header">
                 <h1>CSS Excersise</h1>
             </div>
-            
+
+        </div>
+        <div class="container">
+            <div class="chapter">
+                <h2 class="ch_name">📘Chapter: 01
+                    <span>
+                        <a class="link" href="https://5x30pm.github.io/css_revision/Ex:%2001%20/index.html"
+                            alt="ex_1">(Preview)</a>
+                    </span>
+                </h2>
+                <ul>
+                    <li>Selectors (id, class, element)</li>
+                    <li>Pseudo-classes & pseudo-elements</li>
+                    <li>Combinators</li>
+                    <li>Typography</li>
+                    <li>Box model</li>
+                    <li>Basic animation (hover effects) </li>
+
+                </ul>
+
             </div>
-            <div class="container">
-                <div class="chapter">
-                    <h2 class="ch_name">📘Chapter: 01
-                        <span>
-                            <a class="link" href="https://5x30pm.github.io/css_revision/Ex:%2001%20/index.html" alt="ex_1">(Preview)</a>
-                        </span>
-                    </h2>
-                    <ul>
-                        <li>Selectors (id, class, element)</li>
-                        <li>Pseudo-classes & pseudo-elements</li>
-                        <li>Combinators</li>
-                        <li>Typography</li>
-                        <li>Box model</li>
-                        <li>Basic animation (hover effects) </li>
+            <div class="chapter">
+                <h2 class="ch_name">📗Chapter: 02
+                    <span>
+                        <a class="link"
+                            href="https://5x30pm.github.io/css_revision/Ex:%2002%20(Box,%20Shadow,%20and%20transform)/index.html"
+                            alt="">(Preview)</a>
+                    </span>
+                </h2>
+                <ul>
+                    <li>Selectors (basic → advanced)</li>
+                    <li>Display property</li>
+                    <li>Border & radius</li>
+                    <li>Image styling</li>
+                    <li>Typography basics</li>
+                    <li>Transitions</li>
+                    <li>Box shadow</li>
+                    <li>Transform (scale, skew, rotate, translate)</li>
+                    <li>Hover effects </li>
 
-                    </ul>
+                </ul>
 
-                </div>
-                <div class="chapter">
-                    <h2 class="ch_name">📗Chapter: 02
-                        <span>
-                            <a class="link" href="https://5x30pm.github.io/css_revision/Ex:%2002%20(Box,%20Shadow,%20and%20transform)/index.html"
-                                alt="">(Preview)</a>
-                        </span>
-                    </h2>
-                    <ul>
-                        <li>Selectors (basic → advanced)</li>
-                        <li>Display property</li>
-                        <li>Border & radius</li>
-                        <li>Image styling</li>
-                        <li>Typography basics</li>
-                        <li>Transitions</li>
-                        <li>Box shadow</li>
-                        <li>Transform (scale, skew, rotate, translate)</li>
-                        <li>Hover effects </li>
-
-                    </ul>
-
-                </div>
             </div>
         </div>
-        <!--
+    </div>
+    <!--
         Footer
 -->
-        <footer class="footer">
-            <hr>
-            <p>© 2026 CSS Practice Set</p>
-            <p>
-                Built with ❤️ by Shivranjan (5x30 PM) • Practice Exercises for CSS Learners
-            </p>
+    <footer class="footer">
+        <hr>
+        <p>© 2026 CSS Practice Set</p>
+        <p>
+            Built with ❤️ by Shivranjan (5x30 PM) • Practice Exercises for CSS Learners
+        </p>
 
-            <p>
-                Open-source under MIT License •
-                <a href="https://github.com/5x30pm/css_revision.git" alt="repo_link">
-                    View on GitHub
-                </a>
-            </p>
-        </footer>
+        <p>
+            Open-source under MIT License •
+            <a href="https://github.com/5x30pm/css_revision.git" alt="repo_link">
+                View on GitHub
+            </a>
+        </p>
+    </footer>
     </div>
 </body>
 
